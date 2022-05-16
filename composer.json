@@ -1,5 +1,5 @@
 {
-    "name": "daltcore/lara-pdf-merger",
+    "name": "layeredtech/lara-pdf-merger",
     "description": "",
     "keywords": ["merger","merge","pdf","manage","paginate", "laravel", "duplex merge"],
     "license" : [
@@ -21,7 +21,8 @@
         }
     ],
     "require": {
-        "php" : ">=5.4"
+        "php" : ">=5.4",
+        "tecnickcom/TCPDF" : "^6.2.13"
     },
     "homepage" : "https://github.com/MarwenSami/lara-pdf-merger",
     "autoload": {
